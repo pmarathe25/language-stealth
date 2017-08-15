@@ -5,8 +5,13 @@
 'patterns': [
   {
     'comment':'command'
-    'match':'^[a-z]+'
+    'match':'[a-z]+(?![a-z]*:)(?![0-9])'
     'name':'support.function.builtin.stealth'
+  }
+  {
+    'comment':'label'
+    'match':'[a-z]+(?=:)'
+    'name':'constant.language.stealth'
   }
   {
     'comment':'variable'

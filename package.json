@@ -1,10 +1,9 @@
 {
   "name": "language-stealth",
   "main": "./lib/language-stealth",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Language support for Stealth Assembly",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "language-stealth:toggle"
   },
@@ -13,6 +12,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }

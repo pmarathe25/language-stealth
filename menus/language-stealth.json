@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle language-stealth",
+        "command": "language-stealth:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "language-stealth",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "language-stealth:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

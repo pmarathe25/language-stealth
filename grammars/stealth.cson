@@ -1,0 +1,26 @@
+'scopeName': 'source.stealth'
+'name': 'Stealth Assembly'
+'fileTypes': ['stealth']
+
+'patterns': [
+  {
+    'comment':'command'
+    'match':'^[a-z]+'
+    'name':'support.function.builtin.stealth'
+  }
+  {
+    'comment':'variable'
+    'match':'[r][0-9]+'
+    'name':'variable.other.normal.stealth'
+  }
+  {
+    'comment':'literal'
+    'match':'[0-9]+'
+    'name':'constant.numeric.stealth'
+  }
+  {
+    'comment':'comment'
+    'match': '#.*'
+    'name':'comment.line.number-sign.stealth'
+  }
+]

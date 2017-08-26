@@ -5,18 +5,17 @@
 'patterns': [
   {
     'comment':'command'
-    'match':'\\b[a-zA-Z]+(?![a-zA-Z]*:)(?![0-9])'
+    'match':'\\b(?!rPC)(?!rCMP)[a-zA-Z]+(?![a-zA-Z]*:)(?![0-9])'
     'name':'support.function.builtin.stealth'
   }
   {
     'comment':'label'
     'match':'\\b[a-zA-Z]+(?=:)'
-    # 'name':'constant.language.stealth'
     'name':'keyword.control.stealth'
   }
   {
     'comment':'variable'
-    'match':'\\b[r|R](0*x[0-9a-fA-F]+|[0-9]+)'
+    'match':'\\b[r|R](0*x[0-9a-fA-F]+|[0-9]+)|\\b[r|R](PC)|\\b[r|R](CMP)'
     'name':'variable.other.normal.stealth'
   }
   {

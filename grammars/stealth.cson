@@ -5,12 +5,12 @@
 'patterns': [
   {
     'comment':'command'
-    'match':'\\b[a-z]+(?![a-z]*:)(?![0-9])'
+    'match':'\\b[a-zA-Z]+(?![a-zA-Z]*:)(?![0-9])'
     'name':'support.function.builtin.stealth'
   }
   {
     'comment':'label'
-    'match':'\\b[a-z]+(?=:)'
+    'match':'\\b[a-zA-Z]+(?=:)'
     # 'name':'constant.language.stealth'
     'name':'keyword.control.stealth'
   }
